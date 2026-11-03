@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of a Software Engineer at Google — articles, projects, and open source work." />
+    <title>Deepak Mohnani — Software Engineer at Google</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#top">deepak mohnani<span>.</span></a>
+        <nav aria-label="Main navigation">
+          <a href="#articles">articles</a>
+          <a href="#experience">experience</a>
+          <a href="#skills">skills</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme">◐</button>
+      </header>
+
+      <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+          <img src="myself.jpeg" alt="Deepak Mohnani" class="avatar-img" />
+          <p class="eyebrow">hello, i'm</p>
+          <h1 id="hero-title">Deepak Mohnani</h1>
+          <p class="role">Software Engineer at Google</p>
+          <p class="intro">I build scalable systems and infrastructure at Google. Previously worked on distributed systems and developer tooling. I write about software engineering, system design, and career growth.</p>
+          <div class="socials" aria-label="Social links">
+            <a href="https://github.com/saymedgm" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+            <a href="https://www.linkedin.com/in/deepak-mohnani-a8843b191/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+            <a href="https://x.com/DeepakMohnani3" target="_blank" rel="noreferrer">X / Twitter <span>↗</span></a>
+            <a href="mailto:deepak.cse.dtu@gmail.com" target="_blank" rel="noreferrer">Email <span>↗</span></a>
+          </div>
+        </section>
+
+        <section class="metrics" aria-label="Engineering statistics">
+          <article><strong>2+</strong><span>years exp</span></article>
+          <article><strong>1</strong><span>articles</span></article>
+          <article><strong>25+</strong><span>repos</span></article>
+        </section>
+
+        <section class="section" id="articles" aria-labelledby="articles-title">
+          <div class="section-heading inline"><div><p class="eyebrow">latest writing</p><h2 id="articles-title">Articles</h2></div><a class="all-link" href="https://medium.com/@saymedgm" target="_blank" rel="noreferrer">all <span>→</span></a></div>
+          <div class="article-grid">
+            <article class="article-card">
+              <div class="article-meta"><time datetime="2024-10-15">Oct 15, 2024</time><span class="tag">System Design</span></div>
+              <h3><a href="https://medium.com/@saymedgm/how-redis-does-the-impossible-handling-millions-of-connections-with-a-single-thread-aeb43bd97ece" target="_blank" rel="noreferrer">How Redis Does the Impossible: Handling Millions of Connections with a Single Thread</a></h3>
+              <p>Deep dive into Redis's single-threaded architecture, I/O multiplexing with epoll/kqueue, and how it achieves millions of concurrent connections without threading complexity.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="experience" aria-labelledby="experience-title">
+          <div class="section-heading"><div><p class="eyebrow">where i've worked</p><h2 id="experience-title">Experience</h2></div><p>My journey building scalable systems across different domains.</p></div>
+          <div class="experience-list">
+            <article class="experience-card">
+              <div class="experience-meta">
+                <span class="company">Google</span>
+                <time datetime="2023-07">Jul 2023 — Present</time>
+              </div>
+              <h3>Software Engineer</h3>
+              <p>Developed a scalable Gift Card Discount Platform from the ground up, enabling users to discover and purchase gift cards at discounted prices through seamless offer management, pricing, and redemption workflows.</p>
+              <div class="tags">
+                <span>Distributed Systems</span>
+                <span>Go</span>
+                <span>Kubernetes</span>
+                <span>gRPC</span>
+              </div>
+            </article>
+            <article class="experience-card">
+              <div class="experience-meta">
+                <span class="company">truemeds</span>
+                <time datetime="2021-06">Feb 2026 — Apr 2026</time>
+              </div>
+              <h3>Software Engineer</h3>
+              <p>Developed and launched a Same-Day Delivery (SDD) feature, enabling faster order fulfillment by integrating multiple delivery partners.</p>
+              <p>Designed and implemented an intelligent delivery partner routing service that dynamically evaluates partner performance and routes delivery requests to the fastest available partner, optimizing delivery time and improving fulfillment efficiency.</p>
+              <div class="tags">
+                <span>Microservices</span>
+                <span>PostgreSQL</span>
+                <span>Redis</span>
+                <span>AWS</span>
+              </div>
+            </article>
+            <article class="experience-card">
+              <div class="experience-meta">
+                <span class="company">Walmart</span>
+                <time datetime="2019-07">Jul 2024 — Feb 2026</time>
+              </div>
+              <h3>Software Engineer</h3>
+              <p>Developed a digital wallet system that allows Sam’s Club customers to redeem rewards and receive cashback while shopping. I was responsible for building RESTful APIs, ensuring secure transaction flows, and optimizing system performance in a microservices architecture.</p>
+              <div class="tags">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>Kafka</span>
+                <span>Azure</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="skills" aria-labelledby="skills-title">
+          <div class="section-heading"><div><p class="eyebrow">tech stack</p><h2 id="skills-title">Skills</h2></div><p>Technologies, languages, and tools I work with daily.</p></div>
+          <div class="skills-grid">
+            <article class="skill-category">
+              <header><h3>Languages</h3></header>
+              <ul>
+                <li>Java</li>
+                <li>Javascript / TypeScript</li>
+                <li>Go</li>
+              </ul>
+            </article>
+            <article class="skill-category">
+              <header><h3>Cloud & Infrastructure</h3></header>
+              <ul>
+                <li>Kubernetes</li>
+                <li>AWS</li>
+                <li>Docker</li>
+              </ul>
+            </article>
+            <article class="skill-category">
+              <header><h3>Databases & Storage</h3></header>
+              <ul>
+                <li>PostgreSQL</li>
+                <li>Redis</li>
+                <li>MySQL</li>
+                <li>Elasticsearch</li>
+              </ul>
+            </article>
+            <article class="skill-category">
+              <header><h3>Messaging & APIs</h3></header>
+              <ul>
+                <li>gRPC / Protobuf</li>
+                <li>Kafka</li>
+                <li>REST</li>
+              </ul>
+            </article>
+            <article class="skill-category">
+              <header><h3>Observability</h3></header>
+              <ul>
+                <li>Prometheus</li>
+                <li>Grafana</li>
+              </ul>
+            </article>
+            <article class="skill-category">
+              <header><h3>CI/CD</h3></header>
+              <ul>
+                <li>GitHub Actions</li>
+                <li>ArgoCD</li>
+                <li>Git</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section activity" aria-labelledby="activity-title">
+          <div class="section-heading"><div><p class="eyebrow">leetcode progress</p><h2 id="activity-title">LeetCode</h2></div><p>Problem solving activity over the last year.</p></div>
+          <div class="contribution-wrap">
+            <div class="contribution-labels"><span>Mon</span><span>Wed</span><span>Fri</span></div>
+            <div id="leetcode" class="contributions" aria-label="LeetCode problem solving graph"></div>
+          </div>
+          <div class="legend"><span>less</span><i></i><i></i><i></i><i></i><i></i><span>more</span></div>
+        </section>
+      </main>
+
+      <footer id="contact"><p>© <span id="year"></span> Deepak Mohnani</p><a href="mailto:deepak.cse.dtu@gmail.com">say hello ↗</a></footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
